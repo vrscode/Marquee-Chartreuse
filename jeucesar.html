@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chiffre de César</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="./css/jeucesar.css">
+		<script type="text/javascript" src="./js/jeucesar.js"></script>
+		<link rel = "preconnect" href = "https://fonts.gstatic.com">
+		<link href = "https://fonts.googleapis.com/css2? family = Montserrat + Alternatifs: ital @ 1 & display = swap "rel =" feuille de style ">
+	</head>
+	<body>
+		<header>
+			<nav class="container">
+				<div class="container-logo">
+					<a href="index.html" id="link-logo">
+						<h3 id="logo">M && C</h3>
+					</a>
+				</div>
+				<div class="container-menu">
+					<ul>
+						<li><a href="apropos.html">À propos</a></li>
+						<li><a href="jeux.html">Jeux</a></li>
+						<li><a href="index.html">Accueil</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<h1>Chiffre de César</h1>
+		<hr>
+		<p>
+			<strong>Rappel</strong>: Le Chiffre de César créé par Jules César, permet de chiffrer les lettres vers la droite et ainsi de déchiffrer les lettres vers la gauche. Par exemple si vous voulez vous décaler vers la droite de 10 rangs, il faudra déplacer toutes les autres lettres de 10 rangs vers la droite également.
+		</p>
+		<br>
+		<p id="explication">
+			<strong>Explication</strong>: Pour chiffrer un mot ou une phrase, il suffit de lire l'alphabet vers la droite en fonction du nombre de rangs décalés indiqués. Pour déchiffrer un mot ou une phrase, il suffit de lire l'alphabet vers la gauche en fonction du nombre de rangs décalés indiqués. Vous pouvez également consulter l'alphabet ci-dessous pour vous guider.
+        </p>
+		
+		<div id="container-alphabet">
+			<p id="alphabet"> A B C D E F G H I J K L M N O P Q R S T U V W X Y Z </p>
+		</div>
+		<h2>Exercices d'entrainement</h2>
+		<hr>
+		<div>
+			<label for="unphrase" class="text"><strong>Exercice 1</strong>: Vous devez crypter le mot "Coucou" en vous décalant de 3 rangs.</label>
+			<input type="text" id="unphrase" phrase="phrase" placeholder="Tapez votre réponse" size="35">
+			<button onclick="test('Frxfrx');">Envoyer</button>
+		</div>
+		<span id="reponse1"></span>
+		<div>
+			<label for="unphrase"class="text"><strong>Exercice 2</strong>: Vous devez crypter la phrase "Bonjour, vous allez bien ?" en vous décalant de 12 rangs.</label>
+			<input type="text" id="unphrase2" phrase2="phrase" placeholder="Tapez votre réponse" size="35">
+			<button onclick="test2('Nazvagd, hage mxxql nuqz ?');">Envoyer</button>
+		</div>
+		<span id="reponse2"></span>
+		<div>
+			<label for="unphrase"class="text"><strong>Exercice 3</strong>: Vous devez décrypter le mot "fsrwsmv" en vous décalant de 4 rangs.</label>
+			<input type="text" id="unphrase3" phrase3="phrase" placeholder="Tapez votre réponse"  size="35">
+			<button onclick="test3('Bonsoir');">Envoyer</button>
+		</div>
+		<span id="reponse3"></span>
+
+		<h2>Générateur</h2>
+		<hr>
+		<div>
+
+			<label for="unphrase"class="text">Écrivez votre mot ou votre phrase en sélectionnant le nombre de décalage et si vous voulez chiffrer ou déchiffrer :</label>
+			<input type="text" id="motNonChiffre" phrase3="phrase" placeholder="Tapez votre mot ou votre phrase" size="35">
+		</div>
+		<div id="nbDecalage">
+			<label id="decalage" for="unphrase"class="text"><strong>Nombre de décalage</strong>:</label>
+			<input type="text" id="rang" phrase3="phrase" placeholder="Tapez un chiffre entre 0 et 25" size="35">
+		</div>
+		<div id="generateur">
+			<button onclick="modifHTML(1);">Chiffrer</button>
+			<button onclick="modifHTML(2);">Déchiffrer</button>
+		</div>
+		<h3 id="titleResult">Résultat:</h3>
+		<section id="resultat">
+			
+			<p id="result"></p>
+		</section>
+		
+	</body>
+</html>
+

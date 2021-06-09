@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/snake.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href = "https://fonts.googleapis.com/css2? family = Montserrat + Alternatifs: ital @ 1 & display = swap "rel =" feuille de style ">
+    <title>PlayLand</title>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="container-logo">
+                <a href="index.html" id="link-logo">
+                    <h3 id="logo">M && C</h3>
+                </a>
+            </div>
+            <div class="container-menu">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="jeux.html">Jeux</a></li>
+                    <li><a href="apropos.html">À propos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <h1>The Snake</h1>
+    <canvas id="canvas" width="400" height="400"></canvas>
+    <div id="regle">
+        <h2 class="titre2">Règle du Jeu :</h2>
+        <p class="p1"> Le Joueur controle une longue et fine ligne semblable à un serpent, qui doit slalomer entre les bords de l'ecran et les obstacles qui parsèment le niveau.</p>
+        <p class="p2"> Vous devrait faire manger à votre serpent un certain nombre de pastille similaire à de la nourriture, allongeant à chaque fois la taille du serpent. </p>
+        <p class="p3"> Vous pouvez ne lui indiquer qu'une direction à suivre à la fois (en haut, en bas, à gauche, à droite) afin d'évitez que la tete du serpent ne touche les murs ou son propre corps, auquel cas il risque de mourir et vous avec.</p>
+    </div>
+    <div id="commande">
+        <h2 class="titre2">Commande :</h2>
+        <p class="p1"> Afin de débuter une partie vous devez appuyer sur les flêches de votre clavier</p>
+        <p class="p2"> Vous dirigerez votre snake avec vos flèches sur le clavier</p>
+        <p class="p4">BONNE CHANCE :)</p>
+    </div>
+    <script src="./js/snake.js"></script>
+</body>
+</html>

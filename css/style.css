@@ -1,0 +1,177 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}html{box-sizing:border-box}*,::after,::before{box-sizing:inherit}img,video{width:100%;vertical-align:middle;}
+
+
+p{
+    color: #313131;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+a{
+    color: #313131;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #313131;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+body{
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+}
+header{
+    background-color: rgba(197, 197, 197, 0.09);
+    width: 100vw;
+    padding: 10px 100px 10px 100px;
+    display: flex;
+    align-items: center; 
+    height: 10vh;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 5vh;
+}
+.container-logo{
+    width: 50%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+#logo{
+    font-size: 2em;
+    font-weight: 700;
+}
+.container-menu{
+    padding: 5px 0 0 0;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+ul li{
+    display: inline-block;
+    margin: 10px 30px 0 0;
+} 
+ul li a{
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+}
+main > #trololo {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-family: 'Rock Salt', cursive;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#container-50{
+    width: 50%;
+    padding: 150px 0 0 0;
+}
+#container-50 > #article-pres{
+    width: 50%;
+}
+#article-pres{
+    display: block;
+    margin: auto;
+}
+#article-pres > h1{
+    font-size: 3em;
+}
+#article-pres > p {
+    width: 400px;
+    text-align: center;
+    display: block;
+    margin: 0 auto 40px auto;
+    line-height: 1.5em;
+}
+.btn{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 60px;
+    color: white;
+    background-color: #E05F5F;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+.btn:hover{
+    background-color: #f5f5f5;
+    border: solid #E05F5F 3px;
+    color: rgb(0, 0, 0);
+}
+
+#container-50-50{
+    width: 50%;
+}
+h1{
+    margin: 50px 0 50px 0;
+    font-weight: 700;
+    font-size: 1.6em;
+    text-align: center;
+}
+.flex > article {
+    margin: 0 50px 50px 50px;
+    padding: 15px 30px 0 30px;
+    width: 25vw;
+    height: 500px;
+    border-radius: 20px;
+    background-color: rgba(196, 196, 196, 0.3);
+    box-shadow: 5px 5px 5px rgba(158, 158, 158, 0.5);
+
+}
+article .rond {
+    display: block;
+    margin: auto;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 5px 8px 5px rgba(158, 158, 158, 0.5);
+}
+.monimage{
+    border-radius: 50%;
+}
+article > h2 {
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px;
+}
+article > p{
+    line-height: 1.5em;
+}
+.titre-pres{
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 0px 0;
+}
+.container-article{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 100px 0 0 0;
+
+}
+.paragrapheUn{
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.5em;
+}
+.paragrapheDeux{
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.5em;
+
+}
+.container-para{
+    padding: 30px 0;
+}

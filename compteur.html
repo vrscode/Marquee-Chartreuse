@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <title>Tally click counter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="height=device-height width=device-width, initial-scale=1.0, minimum-scale=1.0 maximum-scale=1.0, user-scalable=no target-densitydpi=device-dpi">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style_c.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body >
+    
+    <header>
+        <nav class="container">
+            <div class="container-logo">
+                <a href="index.html" id="link-logo">
+                    <h3 id="logo">M && C</h3>
+                </a>
+            </div>
+            <div class="container-menu">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="jeux.html">Jeux</a></li>
+                    <li><a href="apropos.html">À propos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <h1>Tally click</h1>
+
+        
+        <div id="rectangle">
+            <div id="button">
+                <button onclick = plus();>Button</button>        
+            </div>  
+            <div >
+                <p id="millier">0</p>
+            </div>
+            <div >
+                <p id="centaine">0</p>
+            </div>
+            <div>
+                <p  id="dizaine">0</p>
+            </div>
+            <div>
+                <p id="unite">0</p>
+            </div>
+            <div id="image">
+                <img src="img/refresh.png" onclick = reset();>
+            </div> 
+        </div>    
+        
+        <div id="image2">
+            <img src="img/Audio-mute.png">
+        </div>    
+        
+        <script src ="./js/compteur.js"></script>
+
+</body>

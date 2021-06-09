@@ -1,0 +1,71 @@
+p{
+    color: #313131;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+a{
+    color: #313131;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #313131;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+body{
+    background-color: #f5f5f5;
+}
+header{
+    background-color: rgba(197, 197, 197, 0.09);
+    width: 100vw;
+    padding: 10px 100px 10px 100px;
+    display: flex;
+    align-items: center; 
+    height: 10vh;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 5vh;
+}
+.container-logo{
+    width: 50%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+#logo{
+    font-size: 2em;
+    font-weight: 700;
+}
+.container-menu{
+    padding: 5px 0 0 0;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+ul li{
+    display: inline-block;
+    margin: 10px 30px 0 0;
+} 
+ul li a{
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+}
+
+#canvas {
+    display: block;
+    margin: auto;
+    border: 5px solid blue;
+    background-color: black;
+    width: 400px;
+    height: 400px;
+
+}
+h1{
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 2.8em;
+    font-weight: 700;
+}
